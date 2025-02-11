@@ -1,0 +1,57 @@
+/* Fondo con gradiente */
+body {
+    background: url('Valentine\ Invite.jpg') no-repeat center center fixed; /* Asegúrate de que la imagen esté en la misma carpeta o usa la ruta correcta */
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Contenedor principal */
+#contenedor {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilo de los botones */
+button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 25px; /* Botones ovalados */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4500; /* Efecto al pasar el cursor */
+}
+
+/* Para ocultar el resumen al principio */
+.oculto {
+    display: none;
+}
+
+/* Estilo de la sección resumen */
+#resumen {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    max-width: 400px;
+    margin-top: 20px;
+    text-align: center;
+}
