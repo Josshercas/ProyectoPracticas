@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación Especial</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Cambia el nombre de la hoja de estilos -->
+</head>
+<body>
+    <div id="contenedor">
+        <h1>¡El amor es una batalla! ⚔️</h1>
+        <p id="pregunta">¿Te atreves a luchar por mi amor?</p>
+        <div id="opciones">
+            <button onclick="procesarRespuesta('si')">Sí</button>
+            <button onclick="procesarRespuesta('no')">No</button>
+        </div>
+    </div>
+    <div id="resumen" class="oculto">
+        <h2>La pelea de tu vida se ha concretado, ¡nos vemos ahí!</h2>
+        <p id="detalle"></p>
+        <button onclick="reiniciarEncuesta()">Reiniciar</button>
+    </div>
+
+    <script src="script.js"></script> <!-- Conexión con el archivo JS -->
+</body>
+</html>
